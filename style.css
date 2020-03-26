@@ -42,9 +42,6 @@ li {
 nav li a {
   display: block;
   color: #F4F5EE;
-  text-align: left;
-  padding: 16px;
-  text-decoration: none;
 }
 
 nav li a:hover {
