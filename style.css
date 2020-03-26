@@ -76,4 +76,8 @@ a:hover {
     from {color: #3F494B;}
     to {color: #695753;}
   }
+
+#header a{
+    color: #3F494B;
+}
   
