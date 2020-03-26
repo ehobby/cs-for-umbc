@@ -79,5 +79,7 @@ a:hover {
 
 #header a{
     color: #3F494B;
+    text-decoration: none;
+    animation: none;
 }
   
