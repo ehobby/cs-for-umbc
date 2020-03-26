@@ -34,6 +34,9 @@ ul {
 
 li {
   float: left;
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
 }
 
 nav li a {
@@ -47,7 +50,8 @@ nav li a {
 nav li a:hover {
   background-color: #695753;
   animation-name: links-nav;
-  animation-duration: 1s;
+  animation-duration: 500ms;
+  color: #F4F5EE;
 }
 
 @keyframes links-nav {
@@ -66,7 +70,7 @@ li a {
 li a:hover {
     color: #695753;
     animation-name: links;
-    animation-duration: 1s;
+    animation-duration: 500ms;
   }
 
 @keyframes links {
