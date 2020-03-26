@@ -60,13 +60,13 @@ p {
   color: #3F494B;
   }
 
-li a {
+a {
     color: #3F494B;
     text-align: left;
     padding: 16px;
 }
 
-li a:hover {
+a:hover {
     color: #695753;
     animation-name: links;
     animation-duration: 500ms;
