@@ -21,7 +21,7 @@ body {
   -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
   box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 100px;
+  padding: 50px;
   font-size: 13px;
 }
   
@@ -36,7 +36,7 @@ li {
   float: left;
 }
 
-li a {
+nav li a {
   display: block;
   color: #F4F5EE;
   text-align: left;
@@ -44,11 +44,33 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
   background-color: #695753;
+  animation-name: links-nav;
+  animation-duration: 1s;
 }
+
+@keyframes links-nav {
+    from {background-color: #a39592;}
+    to {background-color: #695753;}
+  }
 
 p {
   color: #3F494B;
+  }
+
+li a {
+    color: #3F494B;
+}
+
+li a:hover {
+    color: #695753;
+    animation-name: links;
+    animation-duration: 1s;
+  }
+
+@keyframes links {
+    from {color: #3F494B;}
+    to {color: #695753;}
   }
   
