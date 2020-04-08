@@ -33,11 +33,13 @@ ul {
 }
 
 nav li {
-  float: left;
+  display: inline-block;
+  padding: 10px;
 }
 
 #links {
-  float: left;
+  display: inline-block;
+  padding: 10px;
 }
 
 nav li a {
