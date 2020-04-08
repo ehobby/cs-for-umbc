@@ -32,9 +32,9 @@ ul {
   overflow: hidden;
 }
 
-li {
+/*li {
   float: left;
-}
+}*/
 
 nav li a {
   display: block;
