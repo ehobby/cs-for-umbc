@@ -32,14 +32,8 @@ ul {
   overflow: hidden;
 }
 
-nav li {
-  display: inline-block;
-  padding: 10px;
-}
-
-#links {
-  display: inline-block;
-  padding: 10px;
+li {
+  float: left;
 }
 
 nav li a {
