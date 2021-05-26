@@ -2,7 +2,7 @@
   "name": "cs-for-umbc",
   "version": "1.0.0",
   "description": "Welcome!",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "http-server --co"
   },
