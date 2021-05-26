@@ -1,34 +1,13 @@
 <!doctype html>
 <html>
-    <head>
-        <title>CS for UMBC</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="header">
-            <h1><a href="./index.html">CS for UMBC</a></h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./guides.html">Guides</a></li>
-                <li><a href="./downloads.html">Resources</a></li>
-                <li><a href="./me.html">About Me</a></li>
-            </ul>
-        </nav>
-        <h1>Resources</h1>
-        <h2>Downloadables</h2>
-        <ul>
-            <li><a href="./Resources/Classes.xlsx">Four Year Class Schedule</a>
-                <p>Use this spreadsheet to organize what classes you will take during which semesters. I've included my recommended path.</p>
-            </li>
-            <li><a href="./Resources/Job_Applications.xlsx">Application Tracker</a>
-                <p>Use this spreadsheet during each application season. Fill it out in August when you're researching potential roles, then use it to keep track of which applications you've completed, when they are due, and when you last made contact with the company.</p>
-            </li>
-            <li><a href="./Resources/Professional_Contacts.xlsx">Professional Contact Organizer</a>
-                <p>Start this list your first semester freshman year. Try and get the email address of every professional you talk with, then record it in this spreadsheet. When you have questions about career paths or are searching for internships/full time positions, this spreadsheet will be your best friend.</p>
-            </li>
-        </ul>
+
+<head id="header"></head>
+
+<body id="page-container">
+    <div id="navbar"></div>
+
+    <main id="content-wrap">
+        <h1 class="center">~ Resources ~</h1>
         <h2>UMBC Resources</h2>
         <ul>
             <li><a href="https://advising.coeit.umbc.edu/coeit-student-organizations/">Comp Sci Student Orgs</a>
@@ -40,9 +19,41 @@
             <li><a href="https://careers.umbc.edu/students/">Career Center</a>
             </li>
             <br>
-            <li><a href="https://www.linkedin.com/school/university-of-maryland-baltimore-county/people/">Linkedin Network</a>
+            <li><a href="https://www.linkedin.com/school/university-of-maryland-baltimore-county/people/">Linkedin
+                    Network</a>
             </li>
             <br>
         </ul>
-    </body>
-</html>
+        <h2>Downloadables</h2>
+        <ul>
+            <li><a href="./Resources/Classes.xlsx">Four Year Class Schedule</a>
+                <p>Use this spreadsheet to organize what classes you will take during which semesters. I've included my
+                    recommended path.</p>
+            </li>
+            <li><a href="./Resources/Job_Applications.xlsx">Application Tracker</a>
+                <p>Use this spreadsheet during each application season. Fill it out in August when you're researching
+                    potential roles, then use it to keep track of which applications you've completed, when they are
+                    due,
+                    and when you last made contact with the company.</p>
+            </li>
+            <li><a href="./Resources/Professional_Contacts.xlsx">Professional Contact Organizer</a>
+                <p>Start this list your first semester freshman year. Try and get the email address of every
+                    professional
+                    you talk with, then record it in this spreadsheet. When you have questions about career paths or are
+                    searching for internships/full time positions, this spreadsheet will be your best friend.</p>
+            </li>
+        </ul>
+        
+    </main>
+    <div id="footer"></div>
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("#header").load("./assets/header.html")
+        $("#footer").load("./assets/footer.html")
+        $("#navbar").load("./assets/navbar.html")
+    })
+</script>

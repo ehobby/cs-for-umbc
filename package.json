@@ -1,0 +1,25 @@
+{
+  "name": "cs-for-umbc",
+  "version": "1.0.0",
+  "description": "Welcome!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server index.html"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raksalim/cs-for-umbc.git"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raksalim/cs-for-umbc/issues"
+  },
+  "homepage": "https://github.com/raksalim/cs-for-umbc#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
