@@ -6,12 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server index.html"
-
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/raksalim/cs-for-umbc.git"
-    },
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/raksalim/cs-for-umbc#readme",
   "dependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "jquery": "^3.6.0"
   }
 }
