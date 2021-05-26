@@ -138,10 +138,14 @@ h1 {
 }
 
 nav li {
-  margin-left: 30px;
+  margin-left: 25px;
+}
+
+nav, nav a{
+  font-size: medium;
 }
 
 .navbar-brand {
   margin-left: 1%;
-  margin-right: 50%;
+  margin-right: 51.5%;
 }
