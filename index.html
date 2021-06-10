@@ -1,26 +1,47 @@
 <!doctype html>
 <html>
-    <head>
-        <title>CS for UMBC</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="header">
-            <h1><a href="./index.html">CS for UMBC</a></h1>
+
+<head id="header"></head>
+
+<body id="page-container">
+    <div id="navbar"></div>
+
+    <main id="content-wrap">
+        <h1 class="center">~ Welcome to the guide! ~</h1>
+        <p>I'm Emily. I graduated from UMBC in 2020 as a CS major and creative writing minor. I started at Microsoft
+            right
+            after graduation and have been there ever since! This is my guide for other CS students who want to get the
+            most
+            out of their college career. If you're here for general advice, take a look at my timeline guide. If your
+            looking for specific job application, interview, or internship advice, I have guides for those as well!
+            Theres
+            also a section with downloadable templates for keeping track of applications, planning out large projects,
+            and
+            planning out your classes for your four years at UMBC</p>
+        <br>
+        <p>If you're not a UMBC student, feel free to use the guide! A lot of the class-specific information won't be as
+            applicable to you, but the career advice will still work.</p>
+        <br>
+        <p>Good luck, and if you have any questions or suggestions, check the <a href="./me.html">About Me</a> page for
+            more
+            information and my email!</p>
+
+        <div style="display: flex; justify-content: space-evenly; align-items: center; margin: 50px">
+
+            <img src="./assets/compsci.png" alt="" style="width: 25%;">
+            <h1 style="font-size: 100px;">+</h1>
+            <img src="./assets/UMBC_Retrievers_logo.svg.png" alt="" style="width: 25%;">
         </div>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./guides.html">Guides</a></li>
-                <li><a href="./downloads.html">Resources</a></li>
-                <li><a href="./me.html">About Me</a></li>
-            </ul>
-        </nav>
-        <h1>Welcome to the guide!</h1>
-        <p>I'm Emily. I graduated from UMBC in 2020 as a CS major and creative writing minor. I started at Microsoft right after graduation and have been there ever since! This is my guide for other CS students who want to get the most out of their college career. If you're here for general advice, take a look at my timeline guide. If your looking for specific job application, interview, or internship advice, I have guides for those as well! Theres also a section with downloadable templates for keeping track of applications, planning out large projects, and planning out your classes for your four years at UMBC</p>
-        <br>
-        <p>If you're not a UMBC student, feel free to use the guide! A lot of the class-specific information won't be as applicable to you, but the career advice will still work.</p>
-        <br>
-        <p>Good luck, and if you have any questions or suggestions, check the <a href="./me.html">About Me</a> page for more information and my email!</p>
-    </body>
-</html>
+    </main>
+    <div id="footer"></div>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function () {
+        $("#header").load("./assets/header.html")
+        $("#footer").load("./assets/footer.html")
+        $("#navbar").load("./assets/navbar.html")
+    })
+</script>
